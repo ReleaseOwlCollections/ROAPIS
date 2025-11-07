@@ -24,8 +24,41 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://54.144.69.8:8000/sap/opu/odata/ROWL/RM_TRANSPORT_SRV/UpdateTragetOriginalSystem?sap-client=100&Trkorr='DEMK904623'&SourceSystem='DED'",
+					"protocol": "http",
+					"host": [
+						"54",
+						"144",
+						"69",
+						"8"
+					],
+					"port": "8000",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"ROWL",
+						"RM_TRANSPORT_SRV",
+						"UpdateTragetOriginalSystem"
+					],
+					"query": [
+						{
+							"key": "sap-client",
+							"value": "100"
+						},
+						{
+							"key": "Trkorr",
+							"value": "'DEMK904623'"
+						},
+						{
+							"key": "SourceSystem",
+							"value": "'DED'"
+						}
+					]
+				}
 			},
 			"response": []
 		}

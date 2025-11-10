@@ -63,14 +63,38 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "testingWithBash",
 			"id": "23548775-eda99ddd-1fb5-4952-9145-2916b2a7ab6c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://glduses4i.releaseowl.com:8080/sap/opu/odata/ROWL/RM_TRANSPORT_SRV/TransportsBySearchCriteriaSet?$metadata",
+					"protocol": "http",
+					"host": [
+						"glduses4i",
+						"releaseowl",
+						"com"
+					],
+					"port": "8080",
+					"path": [
+						"sap",
+						"opu",
+						"odata",
+						"ROWL",
+						"RM_TRANSPORT_SRV",
+						"TransportsBySearchCriteriaSet"
+					],
+					"query": [
+						{
+							"key": "$metadata",
+							"value": null
+						}
+					]
+				}
 			},
 			"response": []
 		}
